@@ -20,6 +20,11 @@ body{
     padding: 15px;
  ;
 }
+
+.logo img{
+
+    max-width:50px;
+}
 nav{
     float: right;
     color:#fbe4bd;
