@@ -6,6 +6,7 @@
 body{
     
     background:rgba(18, 28, 27, 0.941);
+    max-width: 800px;
 }
 .secao{
     width: 1000px;
@@ -36,4 +37,19 @@ nav{
 
 hr{
     padding: 0%;
-    margin-bottom:0px;}
+    margin: bottom 20px;}
+
+
+.texto1{
+    border:#fbe4bd solid;
+    margin-top: 100px;
+    margin-left: 30px;
+    padding: 15px;
+    size:3em;
+
+}
+.texto1 img{
+    max-width: 700px;
+    padding: 60px;
+    
+}
