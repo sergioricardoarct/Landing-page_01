@@ -53,3 +53,20 @@ hr{
     padding: 60px;
     
 }
+.texto1 a{
+    color:rgb(0, 0, 0);
+    
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 85px;
+
+}
+.circulo1{
+    border-radius: 200px;
+    background-color:aquamarine;
+    width:200px;
+    height: 200px;
+}
