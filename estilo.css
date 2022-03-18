@@ -55,13 +55,13 @@ hr{
 }
 .texto1 a{
     color:rgb(0, 0, 0);
-    
-    margin: auto;
+     margin: auto;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 85px;
+    z-index: 3;
 
 }
 .circulo1{
@@ -69,4 +69,15 @@ hr{
     background-color:aquamarine;
     width:200px;
     height: 200px;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.50);
+    z-index: 1;
+}
+.circulo2{
+    float: left;
+    background-color:rgb(22, 71, 179);
+    width:197px;
+    height: 197px;
+    border-radius: 200px;
+    transform: translate(1%, -101%);
+    z-index: 2;
 }
