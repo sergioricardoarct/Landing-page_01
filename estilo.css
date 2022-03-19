@@ -81,3 +81,12 @@ hr{
     transform: translate(1%, -101%);
     z-index: 2;
 }
+.circulo3{
+    border-radius: 200px;
+    border-right: 2px  rgba(105, 255, 240, 0.941) solid;
+    border-bottom: 2px  rgba(105, 255, 240, 0.941) solid;
+    width:200px;
+    height: 200px;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.50);
+    z-index: 1;
+}
