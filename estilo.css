@@ -56,3 +56,12 @@ nav{
     max-width: 100%;
     justify-items: center;
 }
+
+.texto_p1{
+    float: left;
+    background:#fbe4bd;
+    padding: 100px;
+    margin-top: 2px;
+    display:flex;
+    margin-top: 0%;
+}
