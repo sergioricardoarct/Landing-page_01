@@ -14,9 +14,9 @@ body{
     width: 1200px;
     margin: 30px;
     margin-top: 0%;
-    /**border:#fbe4bd solid;**/
     position: fixed;
     background:rgb(18, 17, 55);
+    z-index: 99;
 }
 .logo{
     color:#fbe4bd;
@@ -29,7 +29,7 @@ body{
     max-width:50px;
 }
 nav{
-    position: static;
+    position: absolute;
     float: right;
     color:#fbe4bd;
    	text-decoration: none;
@@ -37,9 +37,9 @@ nav{
     margin-top: 15px;
     padding-left: 600px;
     word-spacing: 60px;
-    position: fixed;
+    z-index:2;
 }
-
+/**
 /**Parte 1 - primeira seção**/
 .texto1{
    
@@ -95,11 +95,43 @@ nav{
     background: linear-gradient(180deg, rgba(11, 10, 53, 0.941) 20%, rgb(31, 47, 99) 100%);
 }
 .doc {
-    border: #fbe4bd solid 2px;
+    border: #fbe4bd solid 1px;
+    border-radius: 15px;
+    background-color: rgba(245, 245, 220, 0.13);
     position: relative;
-    display: inline;
+    display: inline-block;
     left: 150px;
     top: 100px;
     color: #fbe4bd;
     padding: 20px;
+}
+#tabela{    
+    background:#fbe4bd;
+    float: left;
+    width: 1100px;
+    height: 600px;
+    margin: -90px;
+    margin-left: 78px;
+    z-index: 9;
+    position: relative;
+    box-shadow: 5px 5px 5px rgb(4, 5, 19);
+}
+
+#serfico{
+    float: left;
+    width: 1200px;
+    height: 600px;
+    margin: 30px;
+    background: rgb(11, 10, 53);
+
+    
+}
+
+footer{
+    float: left;
+    width: 1200px;
+    height: 70px;
+    margin:30px;
+    background: rgb(24, 24, 24);
+    margin-top: -30px;
 }
