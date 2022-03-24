@@ -11,7 +11,7 @@ body{
 }
 /** Logo e Navegação**/
 .secao{
-    width: 1119px;
+    width: 1200px;
     margin: 30px;
     margin-top: 0%;
     /**border:#fbe4bd solid;**/
@@ -44,12 +44,12 @@ nav{
 .texto1{
    
     float: left;
-    width: 1120px;
+    width: 1200px;
     height: 600px;
     padding: auto;
     margin: 30px;
     margin-top: 0x;
-    background:#0b0a35f0;
+    background:rgba(11, 10, 53, 0.941);
 }
 
 .texto1 p{
@@ -71,6 +71,35 @@ nav{
     position: absolute;
     color: #fbe4bd;
     top:200px;
-    left: 350px;
+    left: 150px;
     
+}
+
+.texto_p2{
+    position: absolute;
+    color: #fbe4bd;
+    top:410px;
+    left: 0px;
+    padding-left: 320px;
+
+}
+/**parte 2 -vendas**/
+
+#Vendas{
+    float: left;
+    width: 1200px;
+    height: 600px;
+    margin: 30px;
+    margin-top:-30px;
+    background: rgba(11, 10, 53, 0.941);
+    background: linear-gradient(180deg, rgba(11, 10, 53, 0.941) 20%, rgb(31, 47, 99) 100%);
+}
+.doc {
+    border: #fbe4bd solid 2px;
+    position: relative;
+    display: inline;
+    left: 150px;
+    top: 100px;
+    color: #fbe4bd;
+    padding: 20px;
 }
