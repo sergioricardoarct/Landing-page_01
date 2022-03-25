@@ -55,7 +55,7 @@ nav{
 
 .texto1 p{
     
-    max-width: 100%;
+    max-width: 90%;
     padding:0px;
     height: 100px;
 
@@ -128,9 +128,11 @@ nav{
     padding: 70px 90px;
     position: relative;
     width: 70px;
-    display: grid;
     
+}
 
+#item_tabela p{
+    -ms-text-align-last: left;
 }
 #serfico{
     float: left;
