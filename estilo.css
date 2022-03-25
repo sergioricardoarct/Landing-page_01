@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 body{
-    
+    display: grid;
     background: #0b0a35f0;
-    max-width: 800px;
+    max-width: 100%;
     margin: 0px;
 }
 /** Logo e Navegação**/
@@ -115,8 +116,22 @@ nav{
     z-index: 9;
     position: relative;
     box-shadow: 5px 5px 5px rgb(4, 5, 19);
+    color: black;
 }
 
+#item_tabela{
+    border:rgb(11, 14, 92) solid 2px;
+    border-radius:15px;
+    float: left;
+    margin-top: 80px;
+    margin-left: 80px;
+    padding: 70px 90px;
+    position: relative;
+    width: 70px;
+    display: grid;
+    
+
+}
 #serfico{
     float: left;
     width: 1200px;
@@ -124,8 +139,14 @@ nav{
     margin: 30px;
     background: rgb(11, 10, 53);
 
-    
 }
+
+
+
+
+
+
+
 
 footer{
     float: left;
