@@ -134,8 +134,8 @@ a:hover{
 }
 
 #item_tabela{
-    border:rgb(11, 14, 92) solid 2px;
-    border-radius:15px;
+    border:rgb(191, 191, 191) solid 2px ;
+    border-radius:px;
     float: left;
     margin-top: 80px;
     margin-left: 80px;
@@ -145,9 +145,7 @@ a:hover{
     
 }
 
-#item_tabela p{
-    
-}
+
 #serfico{
     float: left;
     width: 1200px;
@@ -159,7 +157,10 @@ a:hover{
 
 #serfico p{
     padding-top: 70px;
-    margin: 30px;
+    margin: 70px;
+    max-width: 1000px;
+    text-align: justify;
+    color:#fbe4bd;
 }
 
 
