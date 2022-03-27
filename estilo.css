@@ -40,6 +40,15 @@ nav{
     word-spacing: 60px;
     z-index:2;
 }
+
+nav a{
+    text-decoration: none;
+    color: #fbe4bd;
+
+}
+a:hover{
+    color:aquamarine;
+}
 /**
 /**Parte 1 - primeira seção**/
 .texto1{
@@ -95,16 +104,20 @@ nav{
     background: rgba(11, 10, 53, 0.941);
     background: linear-gradient(180deg, rgba(11, 10, 53, 0.941) 20%, rgb(31, 47, 99) 100%);
 }
+#Vendas p{
+    margin: 30px;
+
+}
 .doc {
-    border: #fbe4bd solid 1px;
+    
     border-radius: 15px;
-    background-color: rgba(245, 245, 220, 0.13);
     position: relative;
     display: inline-block;
     left: 150px;
     top: 100px;
     color: #fbe4bd;
     padding: 20px;
+    max-width: 250px;
 }
 #tabela{    
     background:#fbe4bd;
@@ -117,6 +130,7 @@ nav{
     position: relative;
     box-shadow: 5px 5px 5px rgb(4, 5, 19);
     color: black;
+    border-radius: 20px;
 }
 
 #item_tabela{
