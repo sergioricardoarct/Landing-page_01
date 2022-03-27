@@ -132,7 +132,7 @@ nav{
 }
 
 #item_tabela p{
-    -ms-text-align-last: left;
+    
 }
 #serfico{
     float: left;
@@ -143,7 +143,10 @@ nav{
 
 }
 
-
+#serfico p{
+    padding-top: 70px;
+    margin: 30px;
+}
 
 
 
